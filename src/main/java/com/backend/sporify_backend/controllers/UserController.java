@@ -2,6 +2,8 @@ package com.backend.sporify_backend.controllers;
 
 
 import com.backend.sporify_backend.models.User;
+import com.backend.sporify_backend.payload.request.UserPrefsRequest;
+import com.backend.sporify_backend.payload.response.MessageResponse;
 import com.backend.sporify_backend.repositories.TrackRepository;
 import com.backend.sporify_backend.repositories.UserRepository;
 import com.backend.sporify_backend.security.services.UserDetailsImpl;
