@@ -1,7 +1,7 @@
 package com.backend.sporify_backend.security;
 
+import com.backend.sporify_backend.security.jwt.AuthTokenFilter;
 import com.backend.sporify_backend.security.services.UserDetailsServiceImpl;
-import com.example.springboot.security.jwt.AuthTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

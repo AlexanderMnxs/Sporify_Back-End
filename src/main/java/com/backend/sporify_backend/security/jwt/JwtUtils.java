@@ -1,6 +1,6 @@
 package com.backend.sporify_backend.security.jwt;
 
-import com.example.springboot.security.services.UserDetailsImpl;
+import com.backend.sporify_backend.security.services.UserDetailsImpl;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
