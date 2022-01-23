@@ -1,7 +1,7 @@
 package com.backend.sporify_backend.security.services;
 
-import com.example.springboot.models.User;
-import com.example.springboot.repositories.UserRepository;
+import com.backend.sporify_backend.models.User;
+import com.backend.sporify_backend.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
